@@ -59,7 +59,6 @@ It enables fast and context-sensitive search.
 <br>
 
 ## References
-References can be found in the following docs.
 - LangChain: https://python.langchain.com/docs/get_started/introduction
 - DataStax Astra DB: https://docs.datastax.com/en/astra-serverless/docs/index.html
 - OpenAI API: https://platform.openai.com/docs/introduction
