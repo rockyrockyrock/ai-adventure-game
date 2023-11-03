@@ -15,7 +15,7 @@ This method enhances LLMs by providing additional context and grounding their re
 
 <br>
 
-My focus is to learn and use the technologies of Cassandra, LangChain, OpenAI, and DataStax Vector Database.
+My focus is to learn and use some new technologies, including Cassandra, LangChain, OpenAI, and DataStax Vector Database.
 
 <br>
 
