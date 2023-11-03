@@ -4,8 +4,17 @@
 
 ## Introduction
 This project, Choose Your Own Adventure, is an interactive text-based game that allows users to embark on a time travel journey. 
-LLM guides the player, as a time traveler, through a post-apocalyptic world infested with zombies. 
-The game dynamically adapts its storyline based on user decisions, offering a branching narrative experience. 
+In this game, the player will navigate a post-apocalyptic world overrun by zombies, guided by a Language Model (LLM). 
+The game dynamically adapts its storyline based on user decisions, offering a branching narrative experience.
+
+<br>
+
+In this project, we incorporate the concept of Retrieval Augmented Generation (RAG) to enhance the user experience and storytelling capabilities. 
+Retrieval augmented generation is a technique used with Language Models (LLMs) where external documents are retrieved and integrated into the prompt. 
+This method enhances LLMs by providing additional context and grounding their responses beyond their training data.
+
+<br>
+
 My focus is to learn and use the technologies of Cassandra, LangChain, OpenAI, and DataStax Vector Database.
 
 <br>
@@ -14,6 +23,7 @@ My focus is to learn and use the technologies of Cassandra, LangChain, OpenAI, a
 - Interactive Storytelling: Leverage LLM that responds dynamically to user inputs, creating an interactive narrative based on user choices.
 - Utilize LangChain: LangChain is used to interact with OpenAI's GPT-3 model.
 - Data Storage with AstraDB: DataStax AstraDB is employed to store and manage the game's chat history and conversation data efficiently.
+
 
 <br>
 
@@ -53,4 +63,5 @@ References can be found in the following docs.
 - LangChain: https://python.langchain.com/docs/get_started/introduction
 - DataStax Astra DB: https://docs.datastax.com/en/astra-serverless/docs/index.html
 - OpenAI API: https://platform.openai.com/docs/introduction
+- Retrieval Augmented Generation (RAG): https://blog.langchain.dev/conversational-retrieval-agents/
 
