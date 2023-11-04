@@ -4,13 +4,13 @@
 
 ## Introduction
 This project, Choose Your Own Adventure, is an interactive text-based game that allows users to embark on a time travel journey. 
-In this game, the player will navigate a post-apocalyptic world overrun by zombies, guided by a Language Model (LLM). 
+In this game, the player will navigate a post-apocalyptic world overrun by zombies, guided by a Large Language Model (LLM). 
 The game dynamically adapts its storyline based on user decisions, offering a branching narrative experience.
 
 <br>
 
 In this project, we incorporate the concept of Retrieval Augmented Generation (RAG) to enhance the user experience and storytelling capabilities. 
-Retrieval augmented generation is a technique used with Language Models (LLMs) where external documents are retrieved and integrated into the prompt. 
+Retrieval augmented generation is a technique used with Large Language Models (LLMs) where external documents are retrieved and integrated into the prompt. 
 This method enhances LLMs by providing additional context and grounding their responses beyond their training data.
 
 <br>
@@ -21,7 +21,7 @@ My focus is to learn and use some new technologies, including Cassandra, LangCha
 
 ## Objectives
 - Interactive Storytelling: Leverage LLM that responds dynamically to user inputs, creating an interactive narrative based on user choices.
-- Utilize LangChain: LangChain is used to interact with OpenAI's GPT-3 model.
+- Utilize LangChain: LangChain is used to interact with OpenAI's GPT-3.5 model.
 - Data Storage with AstraDB: DataStax AstraDB is employed to store and manage the game's chat history and conversation data efficiently.
 
 
@@ -35,7 +35,7 @@ The Cassandra cluster is connected to the AstraDB service, enabling secure and s
 <br>
 
 #### LangChain & OpenAI
-LangChain is a Python library that interfaces with OpenAI's GPT-3 model. 
+LangChain is a Python library that interfaces with OpenAI's GPT-3.5 model. 
 It allows us to have interactive and dynamic conversations with the AI, enhancing the game's narrative capabilities.
 
 <br>
